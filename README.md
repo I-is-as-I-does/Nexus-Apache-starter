@@ -1,3 +1,3 @@
-# Nexus Apache Starter Kit
+# Nexus Apache Starter
 
-Guide coming soon.
+Guidelines coming soon.
