@@ -17,6 +17,8 @@ Upload the folder and files on your web server.
  - Many web hosts also offer a web-based FTP file manager.  
  - If you have a CMS installed, you may also be able to use its backend.  
 
+> Make sure the `.htaccess` file has been properly uploaded, otherwise other Nexus instances will not be able to connect to yours.
+
 Upload your media files in `nexus/media/` if any.  
 
 Launch the Editor: `http://your-website.xyz/nexus/?edit` and fill in the form.  
@@ -29,5 +31,5 @@ More detailed documentation is available here: [nexus-dock.github.io](https://ne
 
 ## Other resources
    
-Code repository: [I-is-as-I-does/Nexus](https://github.com/I-is-as-I-does/Nexus)  
-Github Pages Starter Kit: [I-is-as-I-does/Nexus-Github-starter](https://github.com/I-is-as-I-does/Nexus-Github-starter)
+Nexus Code repository: [I-is-as-I-does/Nexus](https://github.com/I-is-as-I-does/Nexus)  
+GitHub Pages Starter Kit: [I-is-as-I-does/Nexus-Github-starter](https://github.com/I-is-as-I-does/Nexus-Github-starter)
