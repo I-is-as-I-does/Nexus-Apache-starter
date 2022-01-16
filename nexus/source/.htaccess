@@ -1,5 +1,6 @@
-<FilesMatch "\.(xml|html|json|js|css|jpg|jpeg|gif|png|svg|webp|ico|mp3|mp4|webm)$">
+<FilesMatch "\.json$">
 <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
+    Header add Access-Control-Allow-Methods "GET"
 </IfModule>
 </FilesMatch>
