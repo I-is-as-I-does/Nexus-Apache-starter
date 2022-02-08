@@ -11,6 +11,12 @@ If you have a website hosted on a shared web host plan, most chances are this is
 ## Getting started
 
 Download the `nexus/` folder and its content, or the `nexus.zip` archive and unzip it.  
+In `index.html`, change app attributes as desired:
+
+- if you wish to set a custom theme, add `data-style="path/to/your/theme.css"` to the `div` tag
+- if you prefer to use another app than [Nexus-IO](https://github.com/I-is-as-I-does/Nexus-IO), change `script src` 
+- if you would like to specify a default language, add `data-lang="place-lang-code-here"` to the `div` tag
+
 Upload the folder and files on your web server.  
 
  - You can use an FTP file manager like FileZilla.  
@@ -31,5 +37,5 @@ More detailed documentation is available here: [nexus-dock.github.io](https://ne
 
 ## Other resources
    
-Nexus Code repository: [I-is-as-I-does/Nexus](https://github.com/I-is-as-I-does/Nexus)  
+Nexus Hub repository: [I-is-as-I-does/Nexus](https://github.com/I-is-as-I-does/Nexus)  
 GitHub Pages Starter Kit: [I-is-as-I-does/Nexus-Github-starter](https://github.com/I-is-as-I-does/Nexus-Github-starter)
